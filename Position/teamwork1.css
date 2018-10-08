@@ -1,0 +1,215 @@
+.container{
+	width: 85%;
+	height: 1000px;
+	margin: 0 auto;
+	background: #BAC6CB;
+}
+.container .menu{
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+	width: 95%;
+	height: 150px;
+	position: relative;
+	border-bottom: 2px solid white; 
+}
+.menu img{
+	position: absolute;
+	width: 300px;
+	height: 70px;
+	top: 10px;
+	left: 20px;
+}
+.menu p{
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	top: 25px;
+	right: 50px;
+}
+.menu ul{
+	position: absolute;
+	list-style-type: none;
+	top: 90px;
+	left: 0;
+	width: 500px;
+}
+.menu ul li{
+	float: left;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+.menu ul li.home{
+	display: block;
+	background: #D1D8D8;
+}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	color:black;
+	width: 100%;
+	height: 100%;
+}
+.menu ul li:hover{
+	background: red;
+}
+.menu ul li a:hover{
+	display: block;
+	color: white;
+}
+.container .content{
+	width: 90%;
+	height: 750px;
+	margin: 0 auto;
+}
+.content .pic{
+	margin: 0 auto;
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: white;
+	position: relative;
+}
+.pic img{
+	position: absolute;
+	top: 3%;
+	left: 2%;
+	width: 96%;
+	height: 94%;
+	background-repeat: no-repeat;
+}
+.pic ul{
+	list-style-type: none;
+}
+.pic ul li{
+	position: absolute;
+	width: 25px;
+	height: 50px;
+	background: white;
+}
+.pic ul li.prev{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top: 2px solid #9F9E9E;
+	border-left: 2px solid #9F9E9E;
+	border-bottom: 2px solid #9F9E9E;
+	background-image: url('../icons/prev3.png');
+	background-repeat: no-repeat;
+	background-size: 30px 50px;
+	background-position: left 5px top 0; 
+	top: 40%;
+	left: -2.6%;
+}
+.pic ul li.next{
+	border-top: 2px solid #9F9E9E;
+	border-right: 2px solid #9F9E9E;
+	border-bottom: 2px solid #9F9E9E;
+	background-image: url('../icons/next3.png');
+	background-repeat: no-repeat;
+	background-size: 30px 50px;
+	background-position: right 5px top 0; 
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	top: 40%;
+	right: -2.6%;
+}
+.pic ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+.content .wellcome{
+	margin: 0 auto;
+	width: 100%;
+	height: 70px;
+	background: #B2D3DA;
+	margin-top: 20px;
+	position: relative;
+}
+.wellcome h2{
+	width: 30%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: white;
+}
+.wellcome input{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 150px;
+	background: #3674E6;
+	background-image: url('Facebook_like.png');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: left 10px top 2px;
+	text-align: right;
+	color: white;
+	position: absolute;
+	top: 18px;
+	right: 200px;
+	border-radius: 10px;
+}
+.wellcome p{
+	position: absolute;
+	top: 8px;
+	right: 90px;
+	border-radius: 10px;
+	color: white;
+	font-size: 18px;
+}
+.wellcome p a{
+	color: white;
+	font-size: 18px;
+}
+.content .lorem{
+	display: block;
+	width: 100%;
+	height: 408px;
+	background: white;
+}
+.lorem .ipsum{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 32%;
+	height: 150px;
+	float: left;
+	margin-top: 20px;
+}
+.lorem .diff{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.ipsum img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 5px 5px;
+}.ipsum h3{
+	float: left;
+	margin: 0;
+	width: 80%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.ipsum p{
+	clear : both;
+	width: 95%;
+	height: 100px;
+	line-height: 25px;
+	margin: 0 auto;
+	font-size: 17px;
+}
+.container .foter{
+	clear: both;
+	margin: 0 auto;
+	width: 90%;
+	height: 50px;
+	position: 
+}

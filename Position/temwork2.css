@@ -1,0 +1,421 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin: 0 auto;
+	width: 60%;
+	height:800px;
+	margin-top: 5px;
+	background-image: url('https://image.freepik.com/free-vector/modern-technological-elements-with-transparent-background_1035-7108.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.container .content{
+	width: 100%;
+	height: 150px;
+	/* background: green; */
+}
+.container .content h2{
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	padding-top: 40px;
+	font-size: 32px;
+}
+.container .content h2 strong{
+	color: yellow;
+}
+.container .circle-left{
+    width: 90px;
+    height: 180px;
+    border-radius: 999px 0 0 999px;
+    background: #000;
+    position: absolute;
+    left: 7%;
+    top: 45.5%;
+}
+.container .circle-right{
+    width: 90px;
+    height: 180px;
+  	border-radius: 0 999px 999px 0;
+    background: #21262d;
+    position: absolute;
+    left: 18%;
+    top: 45.5%;
+}
+.container .circle{
+    width: 100%;
+    height: auto;
+}
+.cricle p{
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    left: 13%;
+    top: 53%;
+}
+.cricle p.active{
+    color: aqua;
+    position: absolute;
+    left: 13.5%;
+    top: 56%;
+    font-size: 22px;
+    font-weight: bold;
+}
+.container .line1{
+    width: 102px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 56.5%;
+    left: 29%;
+}
+.container .cricle-red{
+    box-sizing: border-box;
+    background: #fff;
+    border: 2px solid red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25.5%;
+    left: 40.6%;
+}
+.cricle-red .cricle-red-small{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.container .line3{
+    width: 3px;
+    height: 140px;
+    background: #000;
+    position: absolute;
+    top: 47.5%;
+    left: 41.5%;
+}
+/* -----Aqua---- */
+.container .cricle-aqua{
+    box-sizing: border-box;
+    background: #fff;
+    border: 2px solid aqua;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top:  45%;
+    left: 40.6%;
+}
+.cricle-aqua .cricle-aqua-small{
+    width: 10px;
+    height: 10px;
+    background: aqua;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}   
+.container .line2{
+    width: 3px;
+    height: 140px;
+    background: #000;
+    position: absolute;
+    top: 28%;
+    left: 41.5%;
+}
+/* -----Blue----- */
+.container .cricle-blue{
+    box-sizing: border-box;
+    background: #fff;
+    border: 2px solid blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 32.5%;
+    left: 40.6%;
+}
+.cricle-blue .cricle-blue-small{
+    width: 10px;
+    height: 10px;
+    background: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.container .line4{
+    width: 3px;
+    height: 140px;
+    background: #000;
+    position: absolute;
+    left:41.5%;
+    bottom: 15%;
+}
+/* ====Yellow===== */
+.container .cricle-yellow{
+    box-sizing: border-box;
+    background: #fff;
+    border: 2px solid yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40.6%;
+    bottom: 12.5%;
+}
+.cricle-yellow .cricle-yellow-small{
+    width: 10px;
+    height: 10px;
+    background:yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.container .content-red{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    right: 18%;
+    top: 25%;
+}
+.content-red .radius-a{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    position:absolute;  
+    top: -35px;  
+}
+.content-red .radius-a p{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+.content-red .rim{
+    box-sizing: border-box;
+    width: 320px;
+    height: 80px;
+    border: solid 5px red; 
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+    top:-25px;
+    left: 80px;
+}
+.content-red .rim .content{
+    box-sizing: border-box;
+    width: 310px;
+    height: 60px;
+    background: red;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 0 30px 30px 0;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.content-red .rim .content h3{
+    font-size: 12px;
+
+}
+.content-red .rim .content  p{
+    font-size: 10px;
+}
+/* --------------Aqua------------------ */
+.container .content-aqua{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    right: 18%;
+    top: 40%;
+}
+.content-aqua .radius-b{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    position:absolute;  
+    top: 0px;  
+    left: 1px;
+}
+.content-aqua .radius-b p{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    line-height: 80px;
+    background:aqua;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+.content-aqua .rim{
+    box-sizing: border-box;
+    width: 320px;
+    height: 80px;
+    border: solid 5px aqua; 
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+    top:10px;
+    left: 80px;
+}
+.content-aqua .rim .content{
+    box-sizing: border-box;
+    width: 310px;
+    height: 60px;
+    background: aqua;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 0 30px 30px 0;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.content-aqua .rim .content h3{
+    font-size: 12px;
+}
+.content-aqua .rim .content  p{
+    font-size: 10px;
+}
+/* ----------------Blue------------- */
+.container .content-blue{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    right: 18%;
+    top: 60%;
+}
+.content-blue .radius-c{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    position:absolute;  
+    top: 0px;  
+    left: 1px;
+}
+.content-blue .radius-c p{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    line-height: 80px;
+    background:blue;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+.content-blue .rim{
+    box-sizing: border-box;
+    width: 320px;
+    height: 80px;
+    border: solid 5px blue; 
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+    top:10px;
+    left: 80px;
+}
+.content-blue .rim .content{
+    box-sizing: border-box;
+    width: 310px;
+    height: 60px;
+    background: blue;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 0 30px 30px 0;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.content-blue .rim .content h3{
+    font-size: 12px;
+}
+.content-blue .rim .content  p{
+    font-size: 10px;
+}
+/* -------------Yellow------------ */
+.container .content-yellow{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    right: 18%;
+    top: 80%;
+}
+.content-yellow .radius-d{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    position:absolute;  
+    top: 0px;  
+    left: 1px;
+}
+.content-yellow .radius-d p{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    line-height: 80px;
+    background:yellow;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+.content-yellow .rim{
+    box-sizing: border-box;
+    width: 320px;
+    height: 80px;
+    border: solid 5px yellow; 
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+    top:10px;
+    left: 80px;
+}
+.content-yellow .rim .content{
+    box-sizing: border-box;
+    width: 310px;
+    height: 60px;
+    background: yellow;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 0 30px 30px 0;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.content-yellow .rim .content h3{
+    font-size: 12px;
+}
+.content-yellow .rim .content  p{
+    font-size: 10px;
+}
